@@ -46,9 +46,17 @@
       name: 'Monster Invasion',
       mechanics: 'The GM/Admin summons monsters for everyone to kill :)'
     },
+        {
+      name: 'Vending/Penya Event',
+      mechanics: 'The GM/Admin vends items for (1penya) and players needs to buy them as fast as they can to get their items of choice'
+    },
     {
-      name: 'Whats in my Egg',
+      name: 'Egg Hatch',
       mechanics: 'The GM/Admin hatch an egg and the players have to guess which pet will it be when it hatches'
+    },
+    {
+      name: 'Avoid the GM',
+      mechanics: 'There will be three posts and the players needs to go and line themselves in any of these posts and the GM/Admin hides himself on these posts. When GM/Admin reveals himself and the players who are in the same posts with the GM/Admin will lose'
     },
   ]
 
