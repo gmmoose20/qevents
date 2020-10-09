@@ -52,7 +52,7 @@
     },
     {
       name: 'Egg Hatch',
-      mechanics: 'The GM/Admin will hatch an egg and the players have to guess which pet will it be when it hatches'
+      mechanics: 'The GM/Admin will hatch an egg and the players have to guess which pet will it be before it hatches'
     },
     {
       name: 'Avoid the GM',
