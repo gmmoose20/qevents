@@ -122,4 +122,11 @@ p {
 .result {
   text-align: justify;
   font-size: 2.4rem;
+  overflow
+  
+}
+
+p {
+  margin-top: 3rem;
+  font-size: 2rem;
 }
