@@ -12,7 +12,7 @@
     },
     {
       name: 'Hide & Seek',
-      mechanics: 'The GM/Admin will hide somewhere all around Madrigal(the whole flyff world and stuff), the first one who find and sit beside him/her wins.'
+      mechanics: 'The GM/Admin will hide somewhere all around Madrigal(the whole flyff world and stuff), the first one who find and sit beside him/her and shout/trade wins.'
     },
     {
       name: 'Fill in the blanks',
