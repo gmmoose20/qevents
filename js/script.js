@@ -20,7 +20,7 @@
     },
     {
       name: 'Guessing Game',
-      mechanics: 'Guess it. The GM/Admin will system shout a random nameless part of his/her gear and the first one to shout him/her with the correct name for the designated random gear part wins. My explanation is complicated, I know. Just take a look at them screenshots.'
+      mechanics: 'Guess it. The GM/Admin will system shout a random nameless part of his/her gear and the first one to shout him/her with the correct name for the designated random gear part wins.'
     },
     {
       name: 'Unscramble',
@@ -55,14 +55,27 @@
 
   const randEvent = Math.floor(Math.random() * events.length);
 
+  
   const setRandomEvent = () => {
     const randEvent = Math.floor(Math.random() * events.length);
-    document.getElementById('random-event').innerHTML = `<h2>Todays Event is: </h2>
-    <div class="result">
-    <h3>"${events[randEvent].name}"</h3>
-    <p>${events[randEvent].mechanics}</p>
-    </div>
-    `
-    document.getElementById('generate').innerText = 'More Events...'
+
+    let title = document.querySelector(".title").innerText = `${events[randEvent].name}`;
+    let mech = document.querySelector(".mechanics").innerText = `${events[randEvent].mechanics}`;
+
+
+  localStorage.setItem("eTitle", title);
+  localStorage.setItem("eMech", mech)
+
+  
+
+    document.getElementById('generate').innerText = 'More Events...';
   }
+document.querySelector(".title").innerText = localStorage.getItem("eTitle");
+  document.querySelector(".mechanics").innerText = localStorage.getItem("eMech");
+  
+    // document.querySelector(".mechanics").innerText = localStorage.getItem("eTitle");
+
+
   document.getElementById('generate').addEventListener('click', setRandomEvent);
+  
+
