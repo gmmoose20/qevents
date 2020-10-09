@@ -12,7 +12,7 @@
     },
     {
       name: 'Hide & Seek',
-      mechanics: 'The GM/Admin will hide somewhere all around Madrigal(the whole flyff world and stuff), disguised as a Masquerpet(monster/mob/whatever you call it) or not and the first one who found and traded him/her wins.'
+      mechanics: 'The GM/Admin will hide somewhere all around Madrigal(the whole flyff world and stuff), the first one who find and sit beside him/her wins.'
     },
     {
       name: 'Fill in the blanks',
@@ -52,11 +52,11 @@
     },
     {
       name: 'Egg Hatch',
-      mechanics: 'The GM/Admin hatch an egg and the players have to guess which pet will it be when it hatches'
+      mechanics: 'The GM/Admin will hatch an egg and the players have to guess which pet will it be when it hatches'
     },
     {
       name: 'Avoid the GM',
-      mechanics: 'There will be three posts and the players needs to go and line themselves in any of these posts and the GM/Admin hides himself on these posts. When GM/Admin reveals himself and the players who are in the same posts with the GM/Admin will lose'
+      mechanics: 'There will be three posts and the players needs to go and line themselves in any of these posts and the GM/Admin hides himself on these posts. When he reveals himself and the players who are in the same posts with him will lose'
     },
   ]
 
