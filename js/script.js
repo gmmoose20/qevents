@@ -38,6 +38,10 @@
       name: 'Bring Me',
       mechanics: 'The GM/Admin will system shout the name of the item/s/quest item/s, often times with quantity, and the first one to bring him/her the exact amount and item/s/quest item/s wins, hence, bring me.'
     },
+        {
+      name: 'Mail Me',
+      mechanics: 'A GM/Admin will system shout an item/s, often times with quantity, that he/she wanted to be mailed to him/her. Happy hunting!'
+    },
     {
       name: 'Players Choice',
       mechanics: 'The GM/Admin will let the players decide what event to do'
